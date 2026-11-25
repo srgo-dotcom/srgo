@@ -1,0 +1,58 @@
+:root {
+  --light-pink: #fff0f6;
+  --pink: #ff4d94;
+  --dark-pink: #c2185b;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--light-pink);
+}
+
+h1, h2, h3, .brand {
+  font-family: "Playfair Display", serif;
+}
+
+.brand {
+  color: var(--dark-pink) !important;
+  font-weight: 700;
+}
+
+.btn-pink {
+  background: var(--pink);
+  color: white;
+  border-radius: 50px;
+}
+.btn-pink:hover {
+  background: var(--dark-pink);
+  color: white;
+}
+
+.btn-outline-pink {
+  border: 2px solid var(--pink);
+  color: var(--pink);
+  border-radius: 50px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #ffd6e7, #ff8fbf);
+  padding: 6rem 0;
+}
+
+.product-card {
+  border: none;
+  transition: transform 0.2s;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.price {
+  color: var(--dark-pink);
+  font-weight: 600;
+}
+
+footer {
+  background: #2b1a23;
+  color: white;
+}
